@@ -1,60 +1,635 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
 }
-.fa-heart{
-    height: 24px;
-    width: 24px;
+
+.top{height: 75px;
+    width: 98%;
+    margin: auto;
+    background-color: rgb(255,253,249);
+    border-bottom: 1px solid groove;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;}
+
+.headber{
+height: 75px;
+width: 98%;
+margin: auto;
+background-color: rgb(255,253,249);
+border-bottom: 1px solid groove;
+display: flex;
+align-items:center;
+justify-content:space-evenly;
+border-bottom: 1px solid groove rgb(201, 201, 201);
 }
-ul{
-    display: inline-block;
+
+.ebay{
+    width: 120px;
+    height: 60px;
+    padding: 5px;
+    margin-top:0;
+    }
+.space{
+    width:45%
 }
-li{
-    display: inline-block;
-    margin-left: 30px ; 
+.top1{
+    font-size: 1.1rem;
 }
-.secondline-2{
-    margin-left: 400px; 
+.top2{
+font-size: 1rem;
 }
-.ebay-logo{
-    height: 52px;
-    width: 130px;
-    margin-top: 0px;
-    margin-left: 30px;
+
+.head2{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 43px;
+font-size: 1rem;
+letter-spacing: -1px;
+color: rgb(90,90,90);
+width:90px;
+font-weight: 300;
 }
-.logo-line{
+
+.head2icon{
+    font-size:1rem;
+    width:20px;
+    text-align: right;
+}
+
+.sb{margin-top:-10px;}
+
+.head3{
+    display: flex;
+    height:40px; 
+    width:820px;
+    align-items:center;
+    border:2px solid black;
+
+}
+.mag{
+    width:60px;
+    text-align: center;
+    color:rgb(146,146,146);
+}
+.searchbox{
+    height:35px;
+    width:100%;
+    border:none;
+    font-size: 1rem;
+    border-right:2px groove;
+    outline:none;
+
+}
+.allcat{
+    width:200px;
+    text-align:center;
+    font-size:0.9rem; 
+}
+
+.catsownicon{
+    width:30px;
+    text-align:left;
+}
+
+button{width:100px;
+height:40px;
+background:rgb(35,138,255);
+color:white;
+font-size:1rem;
+border:none;
+outline: none;}
+
+.head5{
+    width: 100px;
+    padding-right: 10px;
+}
+
+.head5 p{
+    font-size: 0.9rem;
+    padding-left:3px;
+}
+
+.navbar{height:35px;
+width:98%;
+margin:auto;
+display:flex;
+align-items: center;
+gap:35px;
+padding-left: 50px;
+font-size:0.9rem;}
+
+.hero{
+    background-image: url("banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 98%;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;padding: 0px 5px 0px 5px;
+}
+
+
+.heroicon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color:white;
+    font-size: 1.8rem;
+    border:none;
+    outline: none;
+
+}
+
+.hricon{
+    color:white;
+    font-size: 1.8rem;
+}
+.play{
+    padding-top: 200px;;
+}
+
+.sectionone{
+    width:98%;
+    margin:auto;
+}
+.seco1{
+    height:130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.seco1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.secoleft{
+    width:1200px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.secoright{
+    font-size: 1rem;
+    text-align: right;
+}
+
+.seco2{height:160px;
+width: 100%;
+display: flex;
+align-items: center;
+position: relative;
+justify-content: space-between;
+padding:0px 20px 0px 20px;}
+
+.catimg{
+    height: 160px;
+    width:170px;
+}
+.seco2 div p{
+    text-align:center;
+    font-size:1rem;
+    font-weight:600;
+}
+.sect1{
+    height:100px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.seco1 a{
+    text-decoration:none;
+    color:rgb(0,0,0);
+}
+
+.sec2left{
+    width:1200px;
+    font-size:1.6rem;
+    font-weight:bolder;}
+
+.sec2right{
+        font-size:1rem;}
+
+.sectiontwo{
+    height:480px;
+    width:98%;
+    margin:auto;
+}
+
+.two1{
+    height:265px;
+    width:265px;
+    position: relative;
+    
+    border-radius: 20px;
+}
+
+.two1 img{
+    height:100%;
+    width:100%;
+    padding:10px;
+
+}
+.back{width: 100%;
+background-color: antiquewhite;}
+
+.two1 i{
+    position:absolute;
+    right:5%;
+    top:5%;
+    font-size:1.1rem;
+}
+
+.pricetext{
     display:flex;
     align-items: center;
+    justify-content: left;
+    height: 40px;
 }
-.logo-div{
+
+.text1{
+    line-height:20px;
+}
+
+.textthrow{
+    text-decoration:line-through;
+    padding-left: 5px;;
+}
+
+.sect2{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap:5px;
+    position:relative;}
+
+.arow{
+    position:absolute;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    top:45%;
+    padding-right:20px;
+    font-size:1.9rem;
+    color:blackl
+
+}
+
+.adsection{
+    width:98%;
+    height: 310px;
+    margin: auto;
+    border-bottom:1px groove rgb(241,241,241) ;
+}
+
+.adsimg img{
+    height:400px;
+    width:100%;
+    align-items:self-start;
+    position: relative
+}
+
+.all{height:500px;
+width:98%;
+margin:auto;
+height:250px;
+position: relative;}
+
+.footer1{
+    width:100%;
+    margin:auto;
+    margin-top: 40px;
+    display:flex;
+    align-items:start;
+    padding-top:60px;
+    color:#666666;
+    justify-content: space-around;
+
+}
+
+.footer1 p{
+    font-size:0.9rem;
+}
+
+.footer1 h4{
+    line-height: 50px;
+}
+
+.fbfooter{
+    display: flex;
+    align-items:center;
+    gap:5px;
+
+}
+
+.ttfooter{
+    display: flex;
+    align-items:center;
+    gap:5px;
+}
+
+.footer2{
+    width:98%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:0.8rem;
+    color:#666666;
+
+
+}
+.foottwo2{
+    margin-left:-50px;
+    font-size: 0.8rem;
+    cursor:pointer;
+}
+
+.foottwo2 a{
+     color:rgb(97,97,97);
+     font-size: 0.7rem;
+     padding-top:-6px;
+     margin-left: 5px;
+     cursor:pointer;
+}
+.foottwo1{
+    cursor:pointer;
+    margin-top:1px;
+    width: 340px;
+}
+
+
+.bottomspace{
+    height:200px;
+}
+
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+.sign_div{
+    background-color: #3D6AEA;
+    height: 100px;
+    width: 330px;
+    display: flex;
+    padding:20px;
+    margin-left: 540px;
     margin-top: 30px;
 }
-form{
-    display: flex;
+.letter-i{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    color: #3D6AEA;
+    
 }
-form option{
-    flex: 1;
-    border-style: solid;
-    border-width: 7px;
-    border-color:black ;
-}
-input,option{
-    width: 700px;
-    height:40px;  
-}
-button{
-    width: 105px;
-    height:44px; 
-    margin-left: 22px;
-    background-color: blue;
+.letter-i-para{
+    display: inline-block;
     color: white;
-    border: none;
-    font-size: larger;
+    font-family: Arial, sans-serif;
+    
 }
-p{
+.sign_email{
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    padding-left: 20px;
+    margin-top: 40px;
+
+}
+.sign_continue{
+    background-color: #3D6AEA;
+    width: 370px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border-width: 0px;
+    border-color: #3D6AEA;
+    color: white;
+    font-size: large;
+}
+.sign_continue_fb{
+    width: 370px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: #4968AD;
+    border-color: #4968AD;
+    display:flex;
+    
+}
+.fb{
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.continue_fb{ 
+    color: white;
+    margin-left: 80px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.sign_continue_google{
+    width: 370px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display:flex;
+}
+.google{
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.continue_google{
+    margin-left: 80px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+}
+.sign_continue_apple{
+    width: 370px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display:flex;
+}
+.apple{
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.continue_apple{
+    margin-left: 80px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+}
+.checkbox{
+    width: 25px;
+    height: 25px;
+}
+.checkbox_line{
     display: flex;
-    align-items: center;  
-    margin-left: 17px;
+    margin-left: 650px;
+    margin-top: 40px;
 }
-form .fa-magnifying-glass {
-    align-self: center;}
+.checkbox_word{
+    margin-top: 3px;
+    margin-left: 5px;
+    font-weight: lighter
+}
+.arrows{
+    width:15px;
+    height:15px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+::placeholder{
+    color: black;
+}
+.ebay-logo-registration{
+    height: 52px;
+    width: 125px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.fa-circle-info{
+    color: white;
+    
+}
+
+.fa-facebook , .fa-google, .fa-apple{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+
+.fa-facebook {
+    color: white;
+}
+
+
+
+.cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;}
+    
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+    
+    .ebay-logo-registration{
+        height: 52px;
+        width: 130px;
+        margin-top: 15px;
+    }
+    .logo-registration-parallel{
+        font-family: Arial, sans-serif;
+        display: inline-block;
+        margin-top: 15px;
+    }
+    .info{
+        height: 18px;
+        width: 18px;
+    
+    }
+    h1{
+        font-family: Arial, sans-serif;
+        margin-top: 30px;
+        font-size: 48px;
+    }
+    .radio1{
+        height: 18px;
+        width: 18px;
+        margin-top: 0px;
+    }
+    .radio2{
+        height: 18px;
+        width: 18px;
+        margin-top: 0px;
+    }
+    .tab{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bus_name{
+        padding: 12px 12px 12px 12px;
+        width: 500px;
+        margin-top: 15px;
+        border-radius: 8px;
+        background-color: #F4F4F4;
+        border-style: solid;
+        border-width: 1px;
+        font-size: medium;
+        color: black;
+    }
+    .checkbox{
+        width: 20px;
+        height: 20px;
+        margin-top: 15px;
+    }
+    .Register{
+        font-size: large;
+        padding: 10px 10px 10px 10px;
+        margin-top: 15px;
+        border-radius: 30px;
+        width: 530px;
+        color:white;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        border-color: #D9D9D9;
+        font-weight: bolder;
+    }
+    ::placeholder{
+        color: black;
+    }
+    
+    .fa-circle-info{
+        background-color: white;
+        color:black;
+        
+    }
+    .log{display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 30px;}
+    
+    

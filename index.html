@@ -2,51 +2,292 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ad18d3e40a.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <style>
+
+    </style>
 </head>
+
 <body>
-    <i class="fa-regular fa-heart"></i>
-    <div>
-        <ul>
-            <li>Hi!</li>
-            <li>Sign in</li>
-            <li>or</li>
-            <li>register</li>
-            <li>Daily Deals</li>
-            <li>Help & Contact</li>
-        </ul>
-        <ul class="secondline-2">
-            <li>Sell</li>
-            <li>Watchlist</li>
-            <li>My eBay</li>
-            <li><i class="fa-regular fa-bell"></i></li>
-            <li></li><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 0.5C0 0.367392 0.0526784 0.240215 0.146447 0.146447C0.240215 0.0526784 0.367392 0 0.5 0H2C2.11153 3.08115e-05 2.21985 0.0373507 2.30773 0.106025C2.39561 0.174699 2.45801 0.270784 2.485 0.379L2.89 2H14.5C14.5734 2.00007 14.6459 2.0163 14.7124 2.04755C14.7788 2.0788 14.8375 2.12429 14.8844 2.1808C14.9313 2.23731 14.9651 2.30345 14.9835 2.37452C15.002 2.44558 15.0045 2.51984 14.991 2.592L13.491 10.592C13.4696 10.7066 13.4087 10.8101 13.3191 10.8846C13.2294 10.9591 13.1166 10.9999 13 11H4C3.88343 10.9999 3.77057 10.9591 3.68091 10.8846C3.59126 10.8101 3.53045 10.7066 3.509 10.592L2.01 2.607L1.61 1H0.5C0.367392 1 0.240215 0.947322 0.146447 0.853553C0.0526784 0.759785 0 0.632608 0 0.5ZM3.102 3L4.415 10H12.585L13.898 3H3.102ZM5 11C4.46957 11 3.96086 11.2107 3.58579 11.5858C3.21071 11.9609 3 12.4696 3 13C3 13.5304 3.21071 14.0391 3.58579 14.4142C3.96086 14.7893 4.46957 15 5 15C5.53043 15 6.03914 14.7893 6.41421 14.4142C6.78929 14.0391 7 13.5304 7 13C7 12.4696 6.78929 11.9609 6.41421 11.5858C6.03914 11.2107 5.53043 11 5 11ZM12 11C11.4696 11 10.9609 11.2107 10.5858 11.5858C10.2107 11.9609 10 12.4696 10 13C10 13.5304 10.2107 14.0391 10.5858 14.4142C10.9609 14.7893 11.4696 15 12 15C12.5304 15 13.0391 14.7893 13.4142 14.4142C13.7893 14.0391 14 13.5304 14 13C14 12.4696 13.7893 11.9609 13.4142 11.5858C13.0391 11.2107 12.5304 11 12 11ZM5 12C5.26522 12 5.51957 12.1054 5.70711 12.2929C5.89464 12.4804 6 12.7348 6 13C6 13.2652 5.89464 13.5196 5.70711 13.7071C5.51957 13.8946 5.26522 14 5 14C4.73478 14 4.48043 13.8946 4.29289 13.7071C4.10536 13.5196 4 13.2652 4 13C4 12.7348 4.10536 12.4804 4.29289 12.2929C4.48043 12.1054 4.73478 12 5 12ZM12 12C12.2652 12 12.5196 12.1054 12.7071 12.2929C12.8946 12.4804 13 12.7348 13 13C13 13.2652 12.8946 13.5196 12.7071 13.7071C12.5196 13.8946 12.2652 14 12 14C11.7348 14 11.4804 13.8946 11.2929 13.7071C11.1054 13.5196 11 13.2652 11 13C11 12.7348 11.1054 12.4804 11.2929 12.2929C11.4804 12.1054 11.7348 12 12 12Z" fill="black"/>
-                </svg></li>      
-        </ul>
-        <div class="logo-div">
-            <ul class="logo-line">
-                <li><img class="ebay-logo" src="ebaylogo.png"></li>
-                <li><p>Shop by<br>category</p></li>
-                <li><form>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="text" placeholder="Search anything">
-                    <select class="Allcategories">
-                        <option>All categories</option>
-                        <option>Antiques</option>
-                        <option>Art</option>
-                    </select>
-                    <button type="search"> Search</button>
-                    <p>Advanced</p>
-                </form></li>
-            </ul>
+         <header>
+            <div class="top">
+                <div class="one1">Hi! <a href="pages/signin/index.html">Sign in </a> or <a href="pages/register/index.html">Register</a></div>
+                <div class="one1">Daily Deals</div>
+                <div class="one1"><a href="pages/help&contact/index.html"> Help & Contacts</a></div>
+                <div class="space"></div>
+                <div class="one1">Sell</div>
+                <div class="one1">Watchlist <i class="fa-solid fa-angle-down fa-xs"></i></div>
+                <div class="one1">My ebay <i class="fa-solid fa-angle-down fa-xs"></i></div>
+                <div class="top1"><i class="fa-solid fa-bell"></i></div>
+                <div class="top2"></div><i class="fa-solid fa-cart-shopping"></i></div>
+
+            </div>
+       
+        <div class="headber">
+             <a><img class="ebay" src="assets/images/ebay.jpeg"></a>
+             <div class="head2">
+                <div class="category">
+                    <p class="sb">Shop by</p>
+                    <p class="sb">Category</p>
+                    <i class="head2icon fa-solid fa-angle-down fa-xs"></i>
+                </div>
+             </div>
+
+             <div class="head3">
+
+                <i class="mag fa-solid fa-magnifying-glass"></i>
+                <input class="searchbox" type="search" placeholder=" Search for anything..">
+                <p class="allcat">All category</p>
+                <i class="catsownicon fa-solid fa-angle-down fa-xs"></i>
+             </div>
+
+             <div class="head4">
+                <button>Search</button>
+             </div>
+
+             <div class="head5">
+                <p>Advanced</p>
+             </div>
+
         </div>
-            
+        <div class="navbar">
+            <div class="para1">Home</div>
+            <div class="para2">🤍Saved</div>
+            <div class="para3">Electronics</div>
+            <div class="para4">Motors</div>
+            <div class="para5">Fashion</div>
+            <div class="para6">Collection and Art</div>
+            <div class="para7">Sports</div>
+            <div class="para8">Health & Beauty</div>
+            <div class="para9">Industrial equipment</div>
+            <div class="para10">Home & garden</div>
+            <div class="para11">Deals</div>
+            <div class="para12">Sell</div>
 
-    </div>
+        </div>
 
+    </header>
+
+    <main class="hero_section">
+        <div class="hero">
+            <div class="heroicon">
+                <i class="fa-solid fa-circle-chevron-left"></i>
+                <i class="play fa-solid fa-circle-pausse"></i>
+            </div>
+
+            <div class="hricon">
+                <i class="fa-solid fa-circle-chevron-right"></i>
+            </div>
+        </div>
+    </main>
+
+    <section class="sectionone">
+            <div class="sect1">
+                <p class="sec2left">Explore popular Categories</p>
+                <p class="sec2right">See all</p>
+        </div>
+
+        <div class="seco2">
+            <div>
+                <img class="catimg" src="assets/images/P&A.JPG" alt="">
+                <a><p>Parts & accessories</p></a>
+            </div>
+
+            <div>
+                <img class="catimg" src="assets/images/Trading Cards.jpg" alt="">
+                <a><p>Trading cards</p></a>
+            </div>
+
+            <div>
+                <img class="catimg" src="assets/images/Pre-loved Luxuryeng-2.jpg" alt="">
+                <a><p>Pre-loved luxury</p></a>
+            </div>
+
+            <div>
+                <img class="catimg" src="assets/images/04_Sneakerseng.jpg" alt="">
+                <a><p>Sneakers</p></a>
+
+            </div>
+
+            <div>
+                <img class="catimg" src="assets/images/05_Watcheseng.jpg" alt="">
+                <a><p>Watches</p></a>
+            </div>
+
+            <div>
+                <img class="catimg" src="assets/images/06_Handbagseng.jpg" alt="">
+                <a><p>Handbags</p></a>
+            </div>
+
+            <div>
+                <img class="catimg" src="assets/images/07_Start Sellingeng.jpg" alt="">
+                <a><p>Start selling</p></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectiontwo">
+        <div class="sect1">
+            <p class="sec2left">Todays's Deals - All with Free Shipping</p>
+            <p class="sec2right">See all</p>
+        </div>
+
+        <div class="sect2">
+            <div class="two1">
+                <img class="" src="assets/images/Microsoft.jpg" alt="">
+                <i class="fa-regular fa-heart"></i>
+                <p class="text1"> Microsoft Surface Pro 8 13" Intel Core i5 8GB 128GB</p>
+                <div class="pricetext">
+                    <p class="text2">$329.40 <p class="textthrow">$899.99</p></p>
+                </div>
+            </div>
+
+        <div class="two1">
+            <img class="" src="assets/images/Nikon.jpg" alt="">
+            <i class="fa-regular fa-heart"></i>
+            <p class="text1"> Nikon COOLSHOT 50i Golf Rangefinder with OLED Display &..</p>
+            <div class="pricetext">
+                <p class="text2">$319.40 <p class="textthrow">$999.99</p></p>
+            </div>
+        </div>
+
+        <div class="two1">
+            <img class="" src="assets/images/iRoboto.jpg" alt="">
+            <i class="fa-regular fa-heart"></i>
+            <p class="text1"> iRobot Roomba j7+ Self-Emptying Vacuum Cleaning Robot - Certified Refurbished!</p>
+            <div class="pricetext">
+                <p class="text2">$449.00 <p class="textthrow">$599.99</p></p>
+            </div>
+        </div>
+
+        <div class="two1">
+            <img class="" src="assets/images/Apple.jpg" alt="">
+            <i class="fa-regular fa-heart"></i>
+            <p class="text1"> Apple iPhone 12 64GB Unlocked Smartphone - Good</p>
+            <div class="pricetext">
+                <p class="text2">$119.40 <p class="textthrow">$399.99</p></p>
+            </div>
+        </div>
+
+        <div class="two1">
+            <img class="" src="assets/images/Nike.jpg" alt="">
+            <i class="fa-regular fa-heart"></i>
+            <p class="text1"> Nike Men's Sweatpants Athletic Wear Ribbed Cuff Drawstring Fitness </p>
+            <div class="pricetext">
+                <p class="text2">$529.40 <p class="textthrow">959.99</p></p>
+            </div>
+        </div>
+
+        <div class="two1">
+            <img class="" src="assets/images/Bose.jpg" alt="">
+            <i class="fa-regular fa-heart"></i>
+            <p class="text1"> Bose QuietComfort II Noise Cancelling Headphones, Certified</p>
+            <div class="pricetext">
+                <p class="text2">$199.40 <p class="textthrow">$299.99</p></p>
+            </div>
+        </div>
+
+            <div class="arow">
+                <i class="fa-solid fa-circle-chevron-left"></i>
+                <i class="fa-solid fa-circle-chevron-right"></i>
+            </div>
+        </div>
+        </section>
+
+        <section class="adsection">
+            <div class="adsimg">
+                <a><img src="banner2.png" alt=""></a>
+            </div>
+        </section>
+
+        <footer class="all">
+            <div class="footer1">
+                <div class="foot1">
+                    <h4>Buy</h4>
+                    <p>Registration</p>
+                    <p>eBay Money Back guarantee</p>
+                    <p>Bidding & buying help</p>
+                    <p>stores</p>
+                </div>
+
+                <div class="foot2">
+                    <h4>Sell</h4>
+                    <p>Start selling</p>
+                    <a href="pages/learntosell/index.html"></a> <p text-decoration="none">Learn to sell</p>
+                    <p>Affiliate</p>
+                    <h4>Tools & apps</h4>
+                    <p>Developers</p>
+                    <p>Security center</p>
+                    <p>Site map</p>
+                </div>
+
+                <div class="foot3">
+                    <h4>Stay connected</h4>
+                    <p>Ebay's blog</p>
+                    <div class="fbfooter">
+                        <p><i class="fb fa-brands fa-square-facebook"></i> Facebook</p>
+                    </div>
+
+                    <div class="ttfooter">
+                        <p><i class="tt fa-brands fa-square-twitter"></i> Twitter</p>
+                    </div>
+                </div>
+
+                <div class="foot4">
+                    <h4>About ebay</h4>
+                    <p>Company info</p>
+                    <p>News</p>
+                    <p>Investors</p>
+                    <p>Government relation</p>
+                    <p>Advertise with us</p>
+                    <p>Policies</p>
+                    <p>Verified Rights Owner(VeRo) Program</p>
+                </div>
+
+                <div class="foot5">
+                    <h4>Help & Contacts</h4>
+                    <p>Seller Information center</p>
+                    <p>Contact us</p>
+                    <p>Community</p>
+                    <p>Announcements</p>
+                    <p>Discussion boards</p>
+                    <p>eBay Giving Works</p>
+                    <h4>eBay Sites</h4>
+
+                    <select name="" id="">
+                        <option value="">United States</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="footer2">
+                <div class="foottwo1">
+                    <p> Copyright @ 1995-2024 eBay Inc. All Rights Reserved</p>
+
+                </div>
+
+                <div class="foottwo2">
+                    <a href="">Accessibility,</a>
+                    <a href="">User Agreement,</a>
+                    <a href="">Privacy,</a>
+                    <a href="">Payments Terms of Use,</a>
+                    <a href="">Cookies</a>
+                    <a href="">CA Privacy Notice</a>
+                    <a href="">Your privacy</a>
+                    <a href="">Choices</a>
+                    <a href="">and</a>
+                    <a href="">Adchoice</a>
+
+                </div>
+            </div>
+        </footer>
+
+        <div class="bottomspace"></div>
 </body>
 </html>
